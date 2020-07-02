@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.etrrat"
+    },
+    "jhipsterVersion": "6.7.1",
+    "applicationType": "monolith",
+    "baseName": "jhipster",
+    "packageName": "com.etrrat",
+    "packageFolder": "com/etrrat",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mssql",
+    "prodDatabaseType": "mssql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MWRjNGJiOGYzNjkwMjY4NzRjNzE3OTY3MDBhNjJjMGFhMDFmZWMyN2JhZWEwNDA0MDQzNGUxYzEwYmU2ODU0MGNjOWVmODBjODgxYjdmNTA4YTNlNzA3OTczMzI2YzdiODM5NjQ3ZTA2YmJkNjZjNzhjZThiNzE1OTY0MmQ0YjY=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "creationTimestamp": 1592473260878,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
