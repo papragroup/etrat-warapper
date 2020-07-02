@@ -12,24 +12,26 @@ public class Hami {
 
     @Column(name = "Hamiid")
     @Id
-    private String hamiId;
+    private Integer hamiId;
 
     @Column
-    private String shenase;
+    private Integer shenase;
 
-    public String getHamiId() {
+
+
+    public Integer getHamiId() {
         return hamiId;
     }
 
-    public void setHamiId(String hamiId) {
+    public void setHamiId(Integer hamiId) {
         this.hamiId = hamiId;
     }
 
-    public String getShenase() {
+    public Integer getShenase() {
         return shenase;
     }
 
-    public void setShenase(String shenase) {
+    public void setShenase(Integer shenase) {
         this.shenase = shenase;
     }
 }

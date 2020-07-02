@@ -88,7 +88,7 @@ public class AccountResource {
     @GetMapping("/test")
     public void test(@RequestParam(value = "key") String key) {
         hamiRepository.findAll();
-        Optional<User> user = userService.activateRegistration(key);oja
+        Optional<User> user = userService.activateRegistration(key);
 
         if (!user.isPresent()) {
             throw new AccountResourceException("No user was found for this activation key");

@@ -16,7 +16,9 @@ import java.util.Optional;
  * Spring Data JPA repository for the {@link User} entity.
  */
 @Repository
-public interface HamiRepository extends JpaRepository<Hami, Long> {
+public interface HamiRepository extends JpaRepository<Hami, Integer> {
+
+    List<Hami> findByHamiIdAfter(Integer id);
 
 
 }
