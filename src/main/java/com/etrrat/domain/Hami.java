@@ -17,7 +17,40 @@ public class Hami {
     @Column
     private Integer shenase;
 
+    @Column(name = "FirstName")
+    private String firstName;
 
+    @Column(name = "LastName")
+    private String lastName;
+
+    @Column(name = "CellPhone")
+    private String CellPhone;
+
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    @Column(name = "CellPhone")
+    public String getCellPhone() {
+        return CellPhone;
+    }
+
+    public void setCellPhone(String cellPhone) {
+        this.CellPhone = cellPhone;
+    }
 
     public Integer getHamiId() {
         return hamiId;
